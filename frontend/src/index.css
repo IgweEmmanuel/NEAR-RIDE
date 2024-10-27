@@ -1,11 +1,15 @@
-/* :root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(134, 10, 10, 0.87);
+  background-color: #dd8080;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,15 +19,17 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: rgb(2, 49, 136);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: black !important;
 }
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -45,9 +51,12 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  transition: background-color 0.25s;
 }
 button:hover {
   border-color: #646cff;
+  background-color: #646cff;
+  color: white;
 }
 button:focus,
 button:focus-visible {
@@ -56,8 +65,28 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #3ee414;
+    background: radial-gradient(
+        circle at top left,
+        rgba(5, 163, 34, 0.7),
+        rgba(255, 255, 255, 0) 7%
+      ),
+      radial-gradient(
+        circle at 85% 75%,
+        rgba(5, 163, 34, 0.2),
+        rgba(255, 255, 255, 0) 10%
+      ),
+      radial-gradient(
+        circle at 15% 80%,
+        rgba(5, 163, 34, 0.4),
+        rgba(255, 255, 255, 0) 15%
+      ),
+      radial-gradient(
+        circle at 50% 15%,
+        rgba(5, 163, 34, 0.4),
+        rgba(255, 255, 255, 0) 8%
+      ),
+      #beedec;
   }
   a:hover {
     color: #747bff;
@@ -65,4 +94,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-} */
+}

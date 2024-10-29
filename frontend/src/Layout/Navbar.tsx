@@ -16,7 +16,7 @@ export default function Navbar() {
   }, []);
 
   const headerClass = classNames(
-    "flex justify-around fixed top-0 left-0 w-full z-50 transition-all h-12 p-2",
+    "flex  justify-around  top-0 left-0 w-full z-50 transition-all h-12 p-2",
     {
       "bg-blue-200 shadow-lg backdrop-blur-lg": scrolled,
       "bg-blue-500": !scrolled,
@@ -45,7 +45,7 @@ export default function Navbar() {
         <div>
           <ul className="flex gap-5">
             <li>
-              <Link to="/about">Launch App</Link>
+              <Link to="/connect-wallet">Launch App</Link>
             </li>
            
           </ul>

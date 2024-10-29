@@ -32,10 +32,10 @@ export default function Navbar() {
               <Link to="/">NearRide</Link>
             </li>
             <li>
-              <Link to="/explore">Ride</Link>
+              <Link to="/ride">Ride</Link>
             </li>
             <li>
-              <Link to="/results">Drive</Link>
+              <Link to="/drive">Drive</Link>
             </li>
             <li>
               <Link to="/about">About</Link>

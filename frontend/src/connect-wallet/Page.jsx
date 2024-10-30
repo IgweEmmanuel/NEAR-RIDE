@@ -36,7 +36,14 @@ export default function ConnectionPage() {
             </p>
             <div
               className={`py-3 bg-[#03ED0E] text-[#000] font-semibold rounded-full hover:bg-green-500 transition px-[80px] w-full`}
-            ></div>
+            >
+               
+               <button className={`bg-[#03ED0E] rounded-full hover:bg-green-500 transition w-full border-none`}
+               onClick=''>
+                CONNECT WALLET
+                </button>
+                
+            </div>
           </div>
         </div>
       </div>

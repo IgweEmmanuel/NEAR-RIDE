@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Navbar from "../Layout/Navbar";
 import icon from "../assets/images/icon.png";
 
+
+
+
 export default function ConnectionPage() {
   const [isLoading, setLoading] = useState(false);
 
